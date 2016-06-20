@@ -1,0 +1,29 @@
+{
+  "name": "my-nodejs-web",
+  "description": "Express + Jade + Angularjs + Requirejs + grunt + bower",
+  "main": "application/app.js",
+  "authors": [
+    "iror"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Express",
+    "Jade",
+    "Angularjs"
+  ],
+  "homepage": "views/index.jade",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.3",
+    "angular": "angularjs#1.4.12",
+    "requirejs": "2.1.22"
+  }
+}
