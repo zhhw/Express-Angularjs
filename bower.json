@@ -24,6 +24,7 @@
   "dependencies": {
     "jquery": "2.2.3",
     "angular": "angularjs#1.4.12",
-    "requirejs": "2.1.22"
+    "requirejs": "2.1.22",
+    "angular-route": "1.4.12"
   }
 }
