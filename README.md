@@ -3,9 +3,10 @@ Express + Jade + Angularjs + Requirejs + grunt + bower
 
 
 # Run
+First<br>
     $ npm install
     $ bower install
-then<br>
+Then<br>
 
     $ npm start
 or<br>
