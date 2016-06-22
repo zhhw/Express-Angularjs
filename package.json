@@ -1,0 +1,43 @@
+{
+  "name": "my-nodejs-web",
+  "version": "0.0.0",
+  "description": "Express + Jade + Angularjs + Requirejs + grunt + bower",
+  "main": "application/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@git.coding.net:zhhw9210/my-nodejs-web.git"
+  },
+  "keywords": [
+    "Express",
+    "Jade",
+    "Angularjs"
+  ],
+  "author": "Hongwei.Zhang",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "grunt-init": "^0.3.2",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0"
+  }
+}

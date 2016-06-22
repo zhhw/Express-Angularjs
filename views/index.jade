@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div(ng-controller="c1")
+    h1= title
+    p Welcome to #{title}
+    p(ng-model="tt") Welcome to {{name}}
+  div(ng-controller="c2")
+    h1= title
+    p Welcome to #{title}
+    p(ng-model="tt") Welcome to {{name}}
